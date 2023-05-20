@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.mov{
+  display:flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.mov img {
+  width: 200px;
+  flex-basis: 20%;
+  
+}
+
+
+.movie-container {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:50px;
+  
+}
+.mov-ins{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.mov button{
+ width: 50px;
+ height: 30px;
+ background-color: dodgerblue;
+ border-radius:7px ;
+ margin-top: 25px;
+ 
+}
+.hero img{
+  padding-top: 30px;
+  display:flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.text{
+   width: 400px;
+   
+}
