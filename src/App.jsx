@@ -20,7 +20,7 @@ function App() {
        <Movie src={prey} title='Prey' rating='6.4'/>
        <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
        <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='This Gun For Hire' rating='9.0'/>
+       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
        <Movie src={mib} title='Men In Black' rating='9.6'/>
      </div>
 
@@ -32,7 +32,7 @@ function App() {
        <Movie src={prey} title='Prey' rating='6.4'/>
        <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
        <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='This Gun For Hire' rating='9.0'/>
+       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
        <Movie src={mib} title='Men In Black' rating='9.6'/>
      </div>
      
@@ -44,7 +44,7 @@ function App() {
        <Movie src={prey} title='Prey' rating='6.4'/>
        <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
        <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='This Gun For Hire' rating='9.0'/>
+       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
        <Movie src={mib} title='Men In Black' rating='9.6'/>
      </div>
 
@@ -57,7 +57,7 @@ function App() {
        <Movie src={prey} title='Prey' rating='6.4'/>
        <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
        <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='This Gun For Hire' rating='9.0'/>
+       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
        <Movie src={mib} title='Men In Black' rating='9.6'/>
        
     

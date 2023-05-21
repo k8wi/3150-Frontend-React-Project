@@ -11,7 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='font-mono font-bold'>
+    <div className='font-mono font-bold text-lg'>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
