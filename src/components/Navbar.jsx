@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import Search from "./Search";
 const Navbar = () => {
     return (
       <>
@@ -7,7 +8,9 @@ const Navbar = () => {
           <h1 className="text-2xl">CINEFLIX</h1>
   
         </div>
-  
+          
+        <Search/>
+
         <div className='links'>
           <Link to="/">Home</Link>
           <Link to="/movies">Movies</Link>

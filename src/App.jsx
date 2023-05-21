@@ -8,9 +8,11 @@ import moonlight from './assets/moonlight.jpeg'
 import tgfh from './assets/tgfh.jpg'
 import tar from './assets/tar.png'
 import mib from './assets/mib.jpg'
+import Search from './components/Search';
 function App() {
   return (
     <div>
+      
      <Hero/>
      <div className='genre'>
       <h2>ACTION</h2>

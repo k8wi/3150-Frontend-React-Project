@@ -79,3 +79,22 @@ nav a {
  font-size:x-large;
  padding-top:50px;
 }
+.genre-select{
+background-color: rgb(32, 65, 82);
+color: aliceblue;
+padding:5px 5px 5px 5px;
+border-radius: 8px;
+margin-left: 100px;
+margin-top: 10px;
+}
+.search-btn{
+  
+  margin-left: 10px;
+}
+.search{
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.search-container{
+  display: flex;    
+}
