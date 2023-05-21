@@ -3,20 +3,19 @@ import { useState } from "react";
 
 export default function Button() {
  const [buttonText,setButtonText]=useState("Add");
- const [active, setActive] = useState(false);
+ const [color, setColor] = useState("dodgerblue");
+
  const handleClick=()=>{
-    setActive(true);
-    setButtonText("Added");
+     setColor('green');
+     setButtonText("Added");
     }
 
   return (
     <div>
-      <button type="submit" onClick={handleClick} style={{ backgroundColor: active ? "limegreen" : "dodgerblue" }}>
+      <button className={"bg-  hover:bg-black hover:text-white"} type="submit" onClick={handleClick} >
         {buttonText}
       </button>
     </div>
   );
 }
-
-
 

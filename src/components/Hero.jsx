@@ -4,7 +4,6 @@ function Hero() {
   return (
     <div className="hero">
       <div className='hero-left'>
-        <h1>CINEFLIX</h1>
         <div  className='text'>
         <p>Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor

@@ -1,19 +1,23 @@
+import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
     return (
+      <>
       <nav>
         <div className='navhead'>
-          <h2>CINEFLIX</h2>
+          <h1 className="text-2xl">CINEFLIX</h1>
   
         </div>
   
         <div className='links'>
-          <a>Home</a>
-          <a>About</a>
-          <a>Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/movies">Movies</Link>
+          <Link to="/tvseries">TV Series</Link>
+          <Link to="/about">About</Link>
           
         </div>
       </nav>
-      
+      <Outlet/>
+      </>
     )
   }
 
