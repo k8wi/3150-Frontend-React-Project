@@ -9,13 +9,14 @@ const Navbar = () => {
   
         </div>
           
-        <Search/>
+        
 
         <div className='links'>
-          <Link to="/">Home</Link>
-          <Link to="/movies">Movies</Link>
-          <Link to="/tvseries">TV Series</Link>
-          <Link to="/about">About</Link>
+          <h2 className="hover:animate-bounce"><Link to="/">Home</Link></h2>
+          <h2 className="hover:animate-bounce"><Link to="/search">Search</Link></h2>
+          <h2 className="hover:animate-bounce"><Link to="/movies">Movies</Link></h2>
+          <h2 className="hover:animate-bounce"><Link to="/tvseries">TV Series</Link></h2>
+          <h2 className="hover:animate-bounce"><Link to="/about">About</Link></h2>
           
         </div>
       </nav>

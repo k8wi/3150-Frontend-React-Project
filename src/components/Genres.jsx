@@ -1,22 +1,41 @@
+
 export const genres = {
     "Anime":[
         {
             id:1,
             title:"Your Name",
             rating:"7.6",
-            image:"assets/yourname.jpg"
+            image:"assets/yn.webp"
         },
         {
             id:2,
             title:"Suzume",
             rating:"8",
-            image:"assets/suzume.jpeg"
+            image:"assets/suzume2.jpg"
         },
         {
             id:3,
-            title:"Jujutsu kaisen 0",
+            title:"JJK Zero",
             rating:"8",
-            image:"assets/jjk.jpeg"
+            image:"assets/jjk.jpg"
+        }, 
+        {
+            id:14,
+            title:"Your Name",
+            rating:"7.6",
+            image:"assets/yn.webp"
+        },
+        {
+            id:25,
+            title:"Suzume",
+            rating:"8",
+            image:"assets/suzume2.jpg"
+        },
+        {
+            id:36,
+            title:"JJK Zero",
+            rating:"8",
+            image:"assets/jjk.jpg"
         },
         
     ],
