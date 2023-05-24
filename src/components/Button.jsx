@@ -1,15 +1,21 @@
 import { useState } from "react";
 
 
-export default function Button() {
+export default function Button(props) {
  const [buttonText,setButtonText]=useState("Add");
  const [changeColor, setChangeColor] =useState(false);
  const [effect, setEffect] = useState(false);
+ const addedList = props.addedList
+ const setAddedList = props.setAddedList
  const handleClick=()=>{
     if(buttonText==="Add")
-     setButtonText("Remove");
+    {
+      setButtonText("Remove");
+    }
     else
-     setButtonText("Add");
+     {
+      setButtonText("Add");
+     }
      setChangeColor(!changeColor);
     }
 

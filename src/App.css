@@ -11,6 +11,9 @@ nav a {
   margin-right: 20px;
 }
 
+.x{
+padding-left: 500px;;}
+
 .hero {
   width: 100%;
   display: flex;
@@ -44,8 +47,10 @@ nav a {
   padding-top:20px;
   
   
+  
 }
 .mov-det{
+  
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
@@ -95,7 +100,7 @@ margin-top: 10px;
     border-radius: 20px;
     padding-left: 20px;
     color:black;
-    width:400px;
+    width:700px;
 }
 .search-container{
   display: flex; 
@@ -103,6 +108,7 @@ margin-top: 10px;
 }
 
 .search-page{
+    margin-left: 150px;
     justify-content: space-evenly;
     display: flex;
     padding-top: 30px;
@@ -110,15 +116,52 @@ margin-top: 10px;
 
 
 .display{
-     
+     margin-left: 10px;
      padding-top: 50px;
      display: flex;
      justify-content: space-between;
      
 }
 .s{
-   justify-content: center;
+   justify-items: center;
+   padding-left: 350px;
+   padding-top: 40px;
+   
+
+
+}
+.links h2{
+   display: flex;
+   justify-content: space-evenly;
+   padding-left: 150px;
+
+   
 }
 .links{
    display: flex;
+   padding-right: 120px;
 }
+
+form{
+ padding-top: 200px;
+ 
+
+}
+.input{
+width:400px;
+margin-bottom: 20px;
+margin-left: 550px;
+color: black;
+}
+
+
+.label{
+ padding-left: 550px;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+}
+.done{
+width:35px;
+padding-left: 700px;}

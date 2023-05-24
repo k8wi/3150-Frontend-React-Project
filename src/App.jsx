@@ -1,75 +1,35 @@
+import React,{useState} from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
-import Movie from './components/Movie';
-import './App.css'
-import Hero from './components/Hero';
-import creed from './assets/creed.jpeg'
-import prey from './assets/prey.jpg'
-import moonlight from './assets/moonlight.jpeg'
-import tgfh from './assets/tgfh.jpg'
-import tar from './assets/tar.png'
-import mib from './assets/mib.jpg'
-import Search from './components/Search';
-function App() {
-  return (
-    <div>
-      
-     <Hero/>
-     <div className='genre'>
-      <h2>ACTION</h2>
-     </div>
-     <div className='movie-container'>
-       <Movie src={creed} title='Creed' rating='7.6'/>
-       <Movie src={prey} title='Prey' rating='6.4'/>
-       <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
-       <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
-       <Movie src={mib} title='Men In Black' rating='9.6'/>
-     </div>
-
-     <div className='genre'>
-      <h2>SCI-FI</h2>
-     </div>
-     <div className='movie-container'>
-       <Movie src={creed} title='Creed' rating='7.6'/>
-       <Movie src={prey} title='Prey' rating='6.4'/>
-       <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
-       <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
-       <Movie src={mib} title='Men In Black' rating='9.6'/>
-     </div>
-     
-     <div className='genre'>
-      <h2>THRILLER</h2>
-     </div>
-     <div className='movie-container'> 
-       <Movie src={creed} title='Creed' rating='7.6'/>
-       <Movie src={prey} title='Prey' rating='6.4'/>
-       <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
-       <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
-       <Movie src={mib} title='Men In Black' rating='9.6'/>
-     </div>
-
-     <div className='genre'>
-      <h2>HORROR</h2>
-     </div>
-     <div className='movie-container'>
-     
-       <Movie src={creed} title='Creed' rating='7.6'/>
-       <Movie src={prey} title='Prey' rating='6.4'/>
-       <Movie src={moonlight} title='Mooonlight' rating='8.2'/>
-       <Movie src={tar} title='Tar' rating='4.3'/>
-       <Movie src={tgfh} title='Gun Hire' rating='9.0'/>
-       <Movie src={mib} title='Men In Black' rating='9.6'/>
-       
-    
-     </div>
-
-
-    </div>
-  
-  )
+import Home from "./Home";
+import Search from "./components/Search";
+import MoviePage from './MoviePage';
+import List from "./components/List"
+import {genres} from "./components/Genres"
+import Login from "./Login";
+const getAllMovies = () => {
+  const movieArr = Object.values(genres).map(item=>{
+    return item.map(movie=>movie
+     )
+   }
+   )
+  return movieArr.flat()
 }
 
+function App(){
+  const [addedList, setAddedList] = useState({})
+  return(
+    <>
+    <Navbar/>
+    <Routes>
+          <Route path="/" element={<Home addedList={addedList} setAddedList={setAddedList}/>}/>
+          <Route path="search" element={<Search addedList={addedList} setAddedList={setAddedList}/>}/>
+          <Route path="list" element={<List addedList={addedList} setAddedList={setAddedList}/>}/>
+          <Route path="login" element={<Login/>}/>
+      </Routes>
+    </>
+    
+  )
+}
 
 export default App

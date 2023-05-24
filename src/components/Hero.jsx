@@ -5,16 +5,7 @@ function Hero() {
     <div className="hero">
       <div className='hero-left'>
         <div  className='text'>
-        <p>Lorem ipsum dolor sit amet, consectetur 
-          adipiscing elit, sed do eiusmod tempor
-           incididunt ut labore et dolore magna aliqua. 
-           Ut enim ad minim veniam, quis nostrud exercitation
-           ullamco laboris nisi ut aliquip ex ea commodo 
-           consequat. Duis aute irure dolor in reprehenderit 
-           in voluptate velit esse cillum dolore eu fugiat 
-           nulla pariatur. Excepteur sint occaecat cupidatat 
-           non proident, sunt in culpa qui officia deserunt 
-           mollit anim id est laborum.
+        <p>Cineflix Inc. is an American media company based in Los Gatos, California. Founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California, it operates the over-the-top subscription video on-demand service Netflix brand, which includes original films and television series commissioned or acquired by the company, and third-party content licensed from other distributors. Netflix is a member of the Motion Picture Association—having become the first streaming company to become a member.
             </p>
           </div>
       </div>
